@@ -4,13 +4,13 @@
 - With this test, we want to see your ability to create an entire infrastructure from scratch as well as your skills as a system administrator.
 
 ## The task
-- Your task is to provision a highly available CMS with a MySQL RDS backend and nginx/httpd frontend proxy. The entry point of the cluster should be a host and port 443.
+- Your task is to provision a highly available CMS with a RDS backend and nginx/httpd frontend proxy. The entry point of the cluster should be a host and port 443.
 
 ## The solution
 
 - In your solution, please emphasise on readability, maintainability and DevOps methodologies. We expect a clear way to recreate your setup.
-- Since you have to have an HA config using 443 please use a self-signed cert.
-- Use an infrastructure as code tool of choice (Terraform, Ansible, chef) as the configuration management tool.
+- Since your required to have a HA config using 443 please use a self-signed cert.
+- Use an infrastructure as code tool of choice (Terraform, Ansible, Cloudformation etc) as the configuration management tool.
 - The infrastructure provider should be AWS.
 - It should run on Centos7, using security best practices.
 - Make sure to include a README.md with clear instructions, so we can run your code.

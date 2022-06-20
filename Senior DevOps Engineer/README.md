@@ -7,6 +7,7 @@
 - We want to containerise and deploy `hello.py` to AWS with one of their managed container solutions (EKS or ECS), we want a secure isolated environment, and we want to run multiple containers on an instance.
 
 ## The solution
+- In your solution, please emphasise on readability, maintainability and DevOps methodologies. We expect a clear way to recreate your setup.
 - A Docker container running our Flask application.
 - The infrastructure provider should be AWS.
 - Use an infrastructure as code tool of choice (Terraform, Ansible, Cloudformation etc) as the configuration management tool including any Dockerfiles and scripts.
