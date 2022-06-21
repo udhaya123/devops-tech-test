@@ -11,7 +11,7 @@
 - In your solution, please emphasise on readability, maintainability and DevOps methodologies. We expect a clear way to recreate your setup.
 - Since your required to have a HA config using 443 please use a self-signed cert.
 - Use an infrastructure as code tool of choice (Terraform, Ansible, Cloudformation etc) as the configuration management tool.
-- The infrastructure provider should be AWS.
+- The infrastructure provider should be AWS, GCP or Azure.
 - It should run on Centos7, using security best practices.
 - Make sure to include a README.md with clear instructions, so we can run your code.
 - A clean bare minimum working infrastructure is preferred than a full-blown solution pieced together with scissors, rope and duct tape. Do not skip security considerations.
