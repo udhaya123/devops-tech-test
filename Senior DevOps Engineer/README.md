@@ -4,12 +4,12 @@
 - With this test, we want to see your ability to create an entire infrastructure from scratch as well as your skills in cloud engineering, automation and as a system administrator.
 
 ## The task
-- We want to containerise and deploy `hello.py` to AWS with one of their managed container solutions (EKS or ECS), we want a secure isolated environment, and we want to run multiple containers on an instance.
+- We want to containerise and deploy `hello.py` to your choice of cloud provider listed below with one of their managed container solutions (eg: EKS or ECS), we want a secure isolated environment, and we want to run multiple containers on an instance.
 
 ## The solution
 - In your solution, please emphasise on readability, maintainability and DevOps methodologies. We expect a clear way to recreate your setup.
 - A Docker container running our Flask application.
-- The infrastructure provider should be AWS.
+- The infrastructure provider should be AWS, GCP or Azure.
 - Use an infrastructure as code tool of choice (Terraform, Ansible, Cloudformation etc) as the configuration management tool including any Dockerfiles and scripts.
 - Make sure to include a README.md with clear instructions, so we can run your code.
 - A CI/CD spec file using your choice of CI tool (Jenkins, GitLab or Bamboo).
