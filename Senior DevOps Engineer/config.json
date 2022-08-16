@@ -1,0 +1,11 @@
+{
+    "Parameters": {
+        "AccountId": 123,
+        "VpcId": "",
+        "Subnets": ", ",
+        "EKSClusterName": "SeniorDevops-Cluster",
+        "kubernetesVersion": "1.21",
+        "EKSNodeGroup": "eksNodeGroup",
+        "KeyPair": ""
+    }  
+}
