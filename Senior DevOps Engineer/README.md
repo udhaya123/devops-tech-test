@@ -33,13 +33,13 @@ As of 16th Aug 2022,
 -   Clone the repo
 -   Update VPC, subnets and keypair in config.json
 -   Run the following make commands
-    `make iam-sg
-     make createCluster`
+    `make iam-sg`
+    `make createCluster`
 -   Update aws-auth-cm.yml file with the worker node IAM role
 -   Run the following make commands
-    `make applyConfigMap
-     make CreateNodeGroup
-     make deploy`
+    `make applyConfigMap`
+    `make CreateNodeGroup`
+    `make deploy`
 
 ### NOTE:
 If you are running the scripts behind a proxy, you will face an issue with docker pulling the image `udhaya/flask:one` from docker hub. If so, please update the proxy in the node under the file `/etc/systemd/system/docker.service.d/00proxy.conf`
